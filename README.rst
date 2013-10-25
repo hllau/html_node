@@ -49,9 +49,9 @@ Output::
 
 **Example 2 - Simple reusable layout**
 
-You can use `placeholder` to mark different block sections to replace with. You give the
+You can use `placeholder` to mark different block section to replace with. You give the
 placeholder a name, and provide a method with the same name that returns a unicode string.
-You can inherit the layout just like how do in writing Python.
+You can inherit the layout just like how you normally do in Python.
 
 Code snippet::
 
