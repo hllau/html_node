@@ -1,9 +1,11 @@
 *.pyc
 *.pyo
 *.so
+*.swp
 .idea
 *~
 .coverage
 build/
 dist/
+*.egg-info/
 
