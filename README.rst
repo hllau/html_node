@@ -11,7 +11,7 @@ templating language, you can write Python code to render HTML directly, so you c
 your presentation logics easily. Also, you get the full power of Python in writing 
 presentation logic, without the hassle to learn another templating language.
 
-An overview for using interal DSL vs external template languages can be found 
+An overview for using internal DSL vs external template languages can be found 
 `here <http://bitbucket.org/tavisrudd/throw-out-your-templates/src/tip/throw_out_your_templates.py>`_.
 
 
