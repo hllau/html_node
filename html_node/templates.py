@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from tags import Node, Tag, html_node as n
+from .tags import Node, Tag, html_node as n
 
 
 __all__ = ['Placeholder', 'placeholder', 'BaseTemplate', 'BaseLayout']
