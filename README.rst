@@ -1,11 +1,14 @@
-HTML Node - Python HTML Generator
+HtmlNode - Python HTML Generator
 =====================================
 
-`HTML Node` is a Domain Specific Language (DSL) using Python to generate HTML templates. 
+**HtmlNode** is an internal Domain Specific Language (DSL) using Python to generate HTML templates. 
 It is designed to be really easy and flexible to use. By using DSL instead of a specific
 templating language, you can write Python code to render HTML directly, so you can debug
 your presentation logics easily. Also, you get the full power of Python in writing 
 presentation logic, without the hassle to learn another templating language.
+
+An overview for using interal DSL vs external template languages can be found 
+`here <http://bitbucket.org/tavisrudd/throw-out-your-templates/src/tip/throw_out_your_templates.py>`_.
 
 
 Features
@@ -15,7 +18,7 @@ Features
 * Unicode support
 * Auto-escape dangerous characters
 * Template inheritance support
-* Variables substitutions into templates
+* Context variables insertion into templates
 * Auto-completion support for IDEs which can introspect
 * Custom HTML elements can be created on the fly
 * Flexible ways to include attributes for HTML element
@@ -61,7 +64,7 @@ Code snippet::
     class MyLayout(BaseTemplate):
         """My customized layout which other templates can inherit from."""
 
-        title = 'HTML Node'
+        title = 'HtmlNode'
         
         def template(self):
             return h.html5(placeholder('head'), placeholder('body'))
@@ -103,12 +106,12 @@ Output::
     <!DOCTYPE HTML>
     <html>
         <head>
-            <title>HTML Node</title>
+            <title>HtmlNode</title>
             <link href="default.css" type="text/css" rel="stylesheet" />
         </head>
         <body>
             <div class="container expand">
-                HTML Node is a flexible and easy-to-use HTML generator!
+                HtmlNode is a flexible and easy-to-use HTML generator!
             </div>
         </body>
     </html>
