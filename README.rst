@@ -54,7 +54,7 @@ Output::
 *By default, the actual output is concatenated without space or line feeds.*
 
 
-**Example 2 - Simple reusable layout**
+**Example 2 - Simple reusable layout (with inheritance and placeholders)**
 
 You can use `placeholder` to mark different block section to replace with. You give the
 placeholder a name, and provide a method with the same name that returns a unicode string.
