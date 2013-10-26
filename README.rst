@@ -123,7 +123,7 @@ Code snippet::
 
         @placeholder
         def content(self):
-            return u'HTML Node is a flexible and easy-to-use HTML generator!'
+            return u'HTMLNode is a flexible and easy-to-use HTML generator!'
 
 
     template = MyViewTemplate()
