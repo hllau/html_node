@@ -15,6 +15,31 @@ An overview for using interal DSL vs external template languages can be found
 `here <http://bitbucket.org/tavisrudd/throw-out-your-templates/src/tip/throw_out_your_templates.py>`_.
 
 
+Installation
+------------
+
+**Automatic installation**::
+
+    pip install HtmlNode
+
+HtmlNode is listed in `PyPI <http://pypi.python.org/pypi/htmlnode/>`_ and
+can be installed with ``pip`` or ``easy_install``.
+
+**Manual installation**: Download the latest source from `PyPI
+<http://pypi.python.org/pypi/htmlnode/>`_.
+
+.. parsed-literal::
+
+    tar xvzf HtmlNode-$VERSION.tar.gz
+    cd HtmlNode-$VERSION
+    sudo python setup.py install
+
+The HtmlNode source code is `hosted on GitHub
+<https://github.com/hllau/html_node>`_.
+
+**Prerequisites**: HtmlNode only runs on Python 2.7 currently.
+
+
 Features
 --------
 
