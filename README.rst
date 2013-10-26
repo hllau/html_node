@@ -1,11 +1,9 @@
 HtmlNode - Python HTML Generator
 =====================================
 
-.. raw:: html
-
-    <a target="_blank" href="https://travis-ci.org/hllau/html_node">
-      <img src="https://travis-ci.org/hllau/html_node.png" alt="HtmlNode" />
-    </a>
+.. image:: https://travis-ci.org/hllau/html_node.png
+   :alt: HtmlNode
+   :target: https://travis-ci.org/hllau/html_node
 
 **HtmlNode** is an internal Domain Specific Language (DSL) using Python to generate HTML templates. 
 It is designed to be really easy and flexible to use. By using DSL instead of a specific
