@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="HtmlNode",
-    version="0.1.7",
+    version="0.1.8",
     packages=find_packages(),
     description="A simple Python HTML generator",
     author="Hing-Lung Lau",
